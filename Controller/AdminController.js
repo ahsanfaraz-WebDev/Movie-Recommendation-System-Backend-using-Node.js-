@@ -12,7 +12,6 @@ const viewAllUsers = async (req, res) => {
     res.status(500).json({ message: 'Server error' });
   }
 };
-// Compare this snippet from Movie-Recommendation-System-Backend-using-Node.js-/Controller/CustomListController.js:
 
 const viewAllMovies = async (req, res) => {
   try {
